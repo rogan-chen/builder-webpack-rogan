@@ -1,0 +1,8 @@
+{
+  "name": "builder-webpack-rogan.git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rogan-chen/builder-webpack-rogan.git",
+  "author": "Rogan <chen.peng.xin@foocaa.com>",
+  "license": "MIT"
+}
