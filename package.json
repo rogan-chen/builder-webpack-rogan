@@ -5,12 +5,17 @@
   "repository": "git@github.com:rogan-chen/builder-webpack-rogan.git",
   "author": "Rogan <chen.peng.xin@foocaa.com>",
   "license": "MIT",
+  "scripts": {
+    "eslint": "eslint ./lib --fix",
+    "test": "istanbul cover ./node_modules/.bin/_mocha"
+  },
   "devDependencies": {
     "assert": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
     "glob-all": "^3.2.1",
     "istanbul": "^0.4.5",
     "mocha": "^7.1.1",
